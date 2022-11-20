@@ -1,0 +1,93 @@
+# Vocal: interruption, laughter, murmuring
+## Interruption 
+[/(]([[U|u]padica.{0,100})[/)]|[/(](.{0,30} upozor.{0,10}vrijeme.{0,10})[/)]|[/(](.{0,100} replik.{0,20})[/)]
+/Upadica iz klupe./
+/Upadica se ne razumije./
+/Upadica: Majdenić./
+/Upadica: Ne rukom, pločicom./
+/Upadica: Ne rukom, pločicom./
+/Upadica: Majdenić./
+/Upadica iz klupe./
+(Tomislav Nikolić traži repliku.)
+(Upadica s mesta: Uzimaju ministrove papire, ostavite to, nemojte da iznosite ministrove stvari, otimaju, šta je ovo...)
+/zastupnik se upozorava na vrijeme/
+## murmuring
+[/(].{0,50}[žŽ]agor.{0,50}[/)]
+(žagor)
+----------------
+# Kinesic:  applause, laughter, gesture.
+## applause
+[/(](.{0,10}.plau.{0,5})[/)]|[/(]APLAUZ[/)]|[/(][pP]ljesak.[/)]
+(grupa poslanika aplaudira)
+/APLAUZ/
+(Aplauz)
+(Aplauz.)
+(Aplauz!)
+(Aplauz radikala.)
+/Pljesak./
+----------------
+# Incident: break, sound, action.
+## action:
+[/(]Intoniranje himne[/)]|[/(]INTONIRANJE HIMNE[/)]|[/(]POLAGANJE SVEČANE ZAKLETVE[/)]|[/(]MINU.A ŠUTNJE[/)]|[/(].{0,50}Kolegij.[/)]|[/(].{0,30}diskusija.{0,20}[/)]
+(Intoniranje himne)
+/INTONIRANJE HIMNE/
+/POLAGANJE SVEČANE ZAKLETVE/
+/MINURA ŠUTNJE/
+/MINUTA ŠUTNJE/
+/pauza - konsultacije Kolegija/
+/zajednička diskusija/
+/konsultacije Kolegija/
+/dogovor Kolegija/
+/usuglašavanje Kolegija/
+/zajednička diskusija Kolegija/
+/konsultacije u Kolegiju/
+## break
+[/(]PAUZA[/)]|[/(][Čč]eka se.{0,100}[/)]|[/(][čČ]ekanje.{0,100}[/)]|[/(].auza[/)]|[/(].obacivanje.{0,100}[/)]
+/PAUZA/
+/čeka se dolazak ostalih zastupnika u salu/
+/čekanje da se dostave zaključci/
+(Dobacivanje iz sale.)
+----------------
+# Gap: inaudible
+[/(].{0,50}[nN]e razumije.{0,50}[/)]|[/(].{0,50}ne čuje.{0,50}[/)]|[/(].{0,50}[iI]sključen mikrofon.{0,2}[/)]|[/(][nN]ije uključen mikrofon.{0,1}[/)]|[/(][gG]ovorni.{1,4} naknadno uključ.{0,50}[/)]|[/(].{0,50}nije snimljen.{0,3}[/)]
+(Isključen mikrofon.)
+/nije uključen mikrofon/
+/isključen mikrofon/
+/Govornik naknadno uključen./
+/Ne razumije se./
+/Govornici govore u glas, ne razumije se./
+/Govornica se ne razumije./
+/Govornica se ne čuje./
+/Govornik nije uključen, ne čuje se./
+/Upadica se ne razumije./
+/Govornik govori latinski, ne razumije se./
+/Početak nije snimljen./
+/Govornica se ne razumije./
+/Govornica se ne čuje./
+/Govornici govore u glas, ne razumije se./
+/Govornik nije uključen, ne čuje se./
+/Ne razumije se./
+/Govornik govori latinski, ne razumije se./
+/Početak nije snimljen./
+
+# Note
+## time
+[/(].{0,10}sednic.{0,20}[/)]|[/(].{0,10}pauz.{0,10}[/)]
+[/(][/)]
+[/(][/)]
+[/(][/)]
+[/(][/)]
+(Nastavak sednice u 11,00 časova.)
+(Posle pauze – 11.55)
+(Posle pauze.)
+(Sednica je završena u 12.40 časova)
+
+---------------
+Order of operations:
+* Gap - inaudible
+* Incident - action
+* Note -time
+* Incident - break
+* Vocal - Interruption
+* Vocal - murmur
+* Kinesic - applause
