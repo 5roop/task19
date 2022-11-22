@@ -61,14 +61,14 @@ def fix_component(file: Union[str,Path],
         assert file.exists(), f"File {file} existn't!"
         file = str(file)
     
+    with open(file) as f:
+        content = f.read()
         
     from parse import compile
     pattern = '''{beginning}<body>{body}</body>{ending}'''
     pattern = compile(pattern)
-
-    with open(file) as f:
-        content = f.read()
     parsing_results = pattern.search(content).named
+
     div = fromstring(parsing_results["body"])
     us = div.findall("u")
     us = fix_us(us)
