@@ -100,11 +100,14 @@ def fix_us(us: list):
         content = extract_remarks(text)
         newu = Element("u")
         newu.attrib = attribs
+        for i, c in enumerate(content):
             if isinstance(c, str):
                 seg = SubElement(newu, "seg")
                 seg.set("xml:id", xmlid+f".s{n}")
                 seg.text = c
                 n = n + 1
+                if i == len(content) - 1:
+                    returnlist.append(newu)
             if isinstance(c, list):
                 # push what we have so far into list:
                 returnlist.append(newu)
@@ -113,10 +116,7 @@ def fix_us(us: list):
                 returnlist.append(element)
                 # make new u
                 newu = Element("u")
-                newu.attrib = attribs
-        # Push last element, if needed
-        if isinstance(content[-1], str):
-            returnlist.append(newu)
+                newu.attrib = attribs            
     return returnlist
             
 def remark_handler(c: list):
