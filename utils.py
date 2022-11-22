@@ -30,7 +30,7 @@ def extract_remarks(full_text: str) -> list:
         {"Incident_break": r"""([/(]PAUZA[/)]|[/(][Čč]eka se[^/()]{0,100}[/)]|[/(][čČ]ekanje.{0,100}[/)]|[/(].{0,3}auza.{0,3}[/)]|[/(][sS][je]{1,2}dnica [^/()]{0,10}prekinuta[^/()]{0,50}[/)])"""},
         {"Vocal_interruption":r"""([/(][[U|u]padic[ae][^/()]{0,200}[/)]|[/(][^/()]{0,30} upozor.{0,10}vrijeme[^/()]{0,50}[/)]|[/(][^/()]{0,50} replik[^/()]{0,50}[/)]|[/(].obacivanje[^/()]{0,100}[/)]|[/(][^/()]{0,30}s[a]{0,1} mjesta[^/()]{0,100}[/)]|[/(][^/()]{0,30}[iI]z klupe[^/()]{0,100}[/)])"""},
         {"Vocal_murmur":r"""([/(][^)]{0,50}[žŽ]a[mg]or[^/()]{0,50}[/)])"""},
-        {"Kinesic_applause":r"""([/(][^/()]{0,30}plau[^/()]{0,30}[/)]|[/(]APLAUZ[/)]|[/(][pP]ljesak.[/)])"""},
+        {"Kinesic_applause":r"""([/(][^/()]{0,30}plau[^/()]{0,30}[/)]|[/(]APLAUZ[/)]|[/(][^/()]{0,50}[pP]ljesak[^/()]{0,50}[/)])"""},
     
     ]
     text_list = [full_text]
