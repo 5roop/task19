@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="bs" xml:id="ParlaMint-BA_T02S03" ana="#parla.term #reference">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" xml:lang="bs">Bosanski parlamentarni korpus ParlaMint-BA, Mandat 2, Sjednica 03[ParlaMint SAMPLE]</title>
+				<title type="main" xml:lang="en">Bosnian parliamentary corpus ParlaMint-BA, Term 2, Session 03 [ParlaMint SAMPLE]</title>
+				<title type="sub" xml:lang="bs">Zapisnici sjednica parlamentarne skupštine, mandat 2, sjednica 03</title>
+				<title type="sub" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 2, Session 03</title>
+				<meeting n="T02S03" corresp="#PS" ana="#parla.term #PS.2">2. mandat, 03. sjednica</meeting>
+				<respStmt>
+					<persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+					<resp xml:lang="bs">Preuzimanje i čiščenje digitalnog izvora</resp>
+					<resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+				</respStmt>
+				<respStmt>
+					<persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+					<resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+					<resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Peter Rupnik</persName>
+					<resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+					<resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+				</respStmt>
+				<funder>
+					<orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+					<orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+				</funder>
+			</titleStmt>
+			<editionStmt>
+				<edition>0.0a</edition>
+			</editionStmt>
+			<extent>
+				<measure unit="speeches" quantity="328" xml:lang="bs">328 govora</measure>
+				<measure unit="speeches" quantity="328" xml:lang="en">328 speeches</measure>
+				<measure unit="words" quantity="55360" xml:lang="bs">55,360 words</measure>
+				<measure unit="words" quantity="55360" xml:lang="en">55,360 words</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>
+					<orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+					<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+					<ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+				</publisher>
+				<idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+				<availability status="free">
+					<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+					<p xml:lang="bs">
+						Ovaj rad je dostupan pod 
+						<ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+					</p>
+					<p xml:lang="en">
+						This work is licensed under the 
+						<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+					</p>
+				</availability>
+				<date when="2021-06-09">2021-06-09</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title type="main" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina</title>
+					<idno type="URI" subtype="business">https://www.javnarasprava.ba/</idno>
+					<idno type="URI" subtype="parliament">https://www.parlament.ba/</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="bs">
+					<ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+				</p>
+				<p xml:lang="en">
+					<ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+				</p>
+			</projectDesc>
+			<tagsDecl>
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="text" occurs="1"/>
+					<tagUsage gi="body" occurs="1"/>
+					<tagUsage gi="div" occurs="1"/>
+					<tagUsage gi="head" occurs="0"/>
+					<tagUsage gi="note" occurs="0"/>
+					<tagUsage gi="u" occurs="328"/>
+					<tagUsage gi="seg" occurs="2414"/>
+					<tagUsage gi="vocal" occurs="0"/>
+					<tagUsage gi="desc" occurs="0"/>
+					<tagUsage gi="kinesic" occurs="0"/>
+					<tagUsage gi="gap" occurs="0"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<settingDesc>
+				<setting>
+					<name type="address">Trg BiH 1</name>
+					<name type="city">Sarajevo</name>
+					<name type="country" key="BA">Bosnia and Herzegovina</name>
+					<date from="1998-11-26" to="2022-07-27">1998-11-26  -  2022-07-27</date>
+				</setting>
+			</settingDesc>
+		</profileDesc>
+		<revisionDesc xml:lang="en">
+			<change when="2022-11-16">
+				<name>Peter Rupnik</name>
+				Compile from source
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text ana="#reference">
+		<body>
+			<div type="debateSection">
+				<u who="#ŠoljićVladimir" ana="#chair" xml:id="ParlaMint-BIH_DN.T2.S03.u47" n="0">
+                <seg>Bla bla  (Nismo dobili tekst - govori s mjesta) lkmfdsalmlfdsakmčlmfdsalkmfdsačlklkmsadlkfmlaksmdflkmsadlkfmlkasdmlfkmadslkfm(Davanje svečane izjave) asdfačlkmsdglkm</seg>
+                <seg>jačldskfmčlkm (Nastavak rada poslije pauze) asdfasdf asdf asdf /Upadice/ lkmlkmlkmlk</seg>
+				</u>
+			</div>
+		</body>
