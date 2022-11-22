@@ -81,9 +81,11 @@ def fix_component(file: Union[str,Path],
     div_str = div_str.replace('<?xml version="1.0" ?>', '').replace("\n", "\n\t\t\t")
     
     with open(str(out_file), "w") as f:
+        string_to_write = f"""{parsing_results['beginning']}<body>{div_str}</body>\n\t</text>\n</TEI>"""
         f.write(
-            f"""{parsing_results['beginning']}<body>{div_str}</body>{parsing_results['ending']}"""
+            string_to_write
         )
+    
     
     
 def fix_us(us: list):
