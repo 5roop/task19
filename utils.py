@@ -88,20 +88,18 @@ def fix_component(file: Union[str,Path],
     
 def fix_us(us: list):
     returnlist = []
-    
     for u in us:
         n = 0
         attribs = u.attrib
         xmlid = attribs['{http://www.w3.org/XML/1998/namespace}id']
         del attribs['{http://www.w3.org/XML/1998/namespace}id']
         attribs["xml:id"] = xmlid
-        newu = Element("u")
-        newu.attrib = attribs
         segs = u.findall("seg")
         texts = [s.text for s in segs]
         text = " ".join(texts)
         content = extract_remarks(text)
-        for c in content:
+        newu = Element("u")
+        newu.attrib = attribs
             if isinstance(c, str):
                 seg = SubElement(newu, "seg")
                 seg.set("xml:id", xmlid+f".s{n}")
