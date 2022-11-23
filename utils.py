@@ -105,7 +105,7 @@ def fix_us(us: list):
         for i, c in enumerate(content):
             if isinstance(c, str):
                 seg = SubElement(newu, "seg")
-                seg.set("xml:id", xmlid+f".s{n}")
+                seg.set("xml:id", xmlid+f".seg{n}")
                 seg.text = c
                 n = n + 1
                 if i == len(content) - 1:
