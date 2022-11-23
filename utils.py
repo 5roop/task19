@@ -108,17 +108,16 @@ def fix_us(us: list):
                 seg.set("xml:id", xmlid+f".seg{n}")
                 seg.text = c
                 n = n + 1
-                if i == len(content) - 1:
-                    returnlist.append(newu)
+                # if i == len(content) - 1:
+                #     returnlist.append(newu)
             if isinstance(c, list):
-                # push what we have so far into list:
-                returnlist.append(newu)
-                # make new elements based on interruption type:
                 element = remark_handler(c)
-                returnlist.append(element)
-                # make new u
-                newu = Element("u")
-                newu.attrib = attribs            
+                if (i == len(content) - 1) and ("gap" not in c[0].lower()):
+                    returnlist.append(newu)
+                    newu = element
+                else:
+                    newu.append(element)
+        returnlist.append(newu)   
     return returnlist
             
 def remark_handler(c: list):
