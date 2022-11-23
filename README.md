@@ -22,3 +22,10 @@ As of now the component-level fixer works marvelously. Next step: running it on 
 ## 2022-11-22T13:54:58
 
 I found a few more bugs, but it was finally sucessfully ran on all the three branches. Now I'll research if the add common content was done correctly.
+
+## 2022-11-23T10:34:07
+
+* Change segment notation to `seg` (e.g. `<seg xml:id="ParlaMint-HR_T6.S12.u37297.seg0">`)
+* Split files on agenda (for now 500 - 1k utterances)
+* Rerun everything. 
+* Run annotation
