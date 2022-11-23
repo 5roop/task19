@@ -994,7 +994,7 @@
                </seg>
             </u>
             <u who="#GlavakSunčana" ana="#regular" n="3" xml:id="ParlaMint-HR_T6.S12.u37297">
-               <seg xml:id="ParlaMint-HR_T6.S12.u37297.s0">
+               <seg xml:id="ParlaMint-HR_T6.S12.u37297.seg0">
                   <s xml:id="ParlaMint-HR_T6.S12.u37297.s0.1">
                      <w xml:id="ParlaMint-HR_T6.S12.u37297.s0.1.1" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Sing" ana="mte:Ncmsv" lemma="gospodin">Gospodine</w>
                      <w xml:id="ParlaMint-HR_T6.S12.u37297.s0.1.2" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Sing" ana="mte:Ncmsv" lemma="predsjednik" join="right">predsjedniče</w>
